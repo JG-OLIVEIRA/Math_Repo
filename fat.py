@@ -1,6 +1,6 @@
-def fat(n):
-    if n > 1:
-        return n * fat(n - 1)
+def fat(value):
+    if value > 1:
+        return value * fat(value - 1)
     return 1
 
 

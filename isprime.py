@@ -1,8 +1,8 @@
 import math
 
-def isPrime(n):
-    for d in range(2, round(math.sqrt(n) + 1)):
-        if (n % d == 0):
+def isPrime(value):
+    for number in range(2, round(math.sqrt(value) + 1)):
+        if (value % number == 0):
             return False
     return True
 

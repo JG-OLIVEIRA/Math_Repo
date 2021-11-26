@@ -1,5 +1,5 @@
-def dividers(n):
-    return [d for d in range(1, n + 1) if n % d == 0]
+def dividers(value):
+    return [number for number in range(1, number + 1) if value % number == 0]
 
 
 print(dividers(21))
