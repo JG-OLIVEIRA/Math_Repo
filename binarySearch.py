@@ -7,7 +7,7 @@ def binarySearch(array, value):
             start = middle
         elif (array[middle] > value):
             end = middle
-        elif (array[middle] == value):
+        else:
             return middle
 
 
