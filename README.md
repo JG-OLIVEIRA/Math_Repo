@@ -1,2 +1,3 @@
 # math_repo
-Aqui guardo alguns algoritmos matématicos.
+
+Aqui guardo alguns algoritmos matemáticos.
