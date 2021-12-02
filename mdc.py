@@ -4,6 +4,4 @@ def mdc(value1, value2):
         return mdc(value2, rest)
     return value2
 
-
-print(mdc(348, 156))
-print(mdc(12, 6))
+print(mdc(150, 225))
